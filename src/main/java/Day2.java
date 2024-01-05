@@ -3,11 +3,11 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.util.List;
 
-public class Day22022 {
+public class Day2 {
 
     public static void main(String[] args) throws IOException {
         //first part
-        List<String> lines = Files.readAllLines(new File("src/main/Day22022.txt").toPath());
+        List<String> lines = Files.readAllLines(new File("src/main/Day2.txt").toPath());
         String opponent = "";
         String me = "";
         int totalScorePartOne = 0;

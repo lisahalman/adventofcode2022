@@ -3,11 +3,11 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.util.*;
 
-public class Day72022 {
+public class Day7 {
 
     public static void main(String[] args) throws IOException {
         //first part
-        List<String> lines = Files.readAllLines(new File("src/main/Day72022.txt").toPath());
+        List<String> lines = Files.readAllLines(new File("src/main/Day7.txt").toPath());
         lines.remove(0);
         System.out.println(lines);
         Node<String> rootNode = new Node<>("/");

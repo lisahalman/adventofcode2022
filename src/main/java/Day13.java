@@ -3,11 +3,11 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.util.*;
 
-public class Day132022 {
+public class Day13 {
 
     public static void main(String[] args) throws IOException {
         //part 1
-        List<String> lines = Files.readAllLines(new File("src/main/Day132022.txt").toPath());
+        List<String> lines = Files.readAllLines(new File("src/main/Day13.txt").toPath());
         String left;
         String right;
         int sum = 0;

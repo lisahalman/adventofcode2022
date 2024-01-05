@@ -3,11 +3,11 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.util.*;
 
-public class Day82022 {
+public class Day8 {
 
     public static void main(String[] args) throws IOException {
         //part 1
-        List<String> lines = Files.readAllLines(new File("src/main/Day82022.txt").toPath());
+        List<String> lines = Files.readAllLines(new File("src/main/Day8.txt").toPath());
         int rows = lines.size();
         int columns = lines.get(0).length();
         int[][] grid = new int[rows][columns];

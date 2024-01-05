@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.util.*;
 
-public class Day52022Part2 {
+public class Day5Part2 {
 
     static List<String> pile1 = new ArrayList<String>(Arrays.asList("B", "G", "S", "C"));
     static List<String> pile2 = new ArrayList<String>(Arrays.asList("T", "M", "W", "H", "J", "N", "V", "G"));
@@ -17,7 +17,7 @@ public class Day52022Part2 {
 
     public static void main(String[] args) throws IOException {
         //first part
-        List<String> lines = Files.readAllLines(new File("src/main/Day52022.txt").toPath());
+        List<String> lines = Files.readAllLines(new File("src/main/Day5.txt").toPath());
 
         for (int i = 1; i < 11; i++) {
             lines.remove(0);
